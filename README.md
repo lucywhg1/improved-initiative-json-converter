@@ -30,20 +30,6 @@ Huge credit to NaturalCrit, who made Homebrewery; Evan Bailey and the other Impr
 
 3. All done! Find your files in a `converted` folder at the same directory as your input file, and you can paste them into Homebrewery or wherever you like.
 
-#### Examples
-
-Here's a few demos of the converter in progress, from Improved Initiative to commandline to Homebrewery.
-
-![Demo in Improved Initiative](../assets/improvedinitiative_ex.PNG?raw=true)
-
-![Demo Commandline](../assets/commandline_ex.PNG?raw=true)
-
-![Demo in Homebrewery](../assets/homebrewery_ex.PNG?raw=true)
-
-![Demo in Homebrewery Wide](../assets/homebrewery_wide_ex.png?raw=true)
-
-![Demo in Markdown Editor](../assets/md_editor_ex.PNG?raw=true)
-
 ## Common Issues
 
 ### How do I get the Improved Initiative JSON file?
@@ -66,4 +52,18 @@ This is a problem with your browser. Homebrewery is built for Chrome, so there c
 
 ## Additional Questions/Concerns
 
-Like I mentioned, this is my first ever Python project, so if there's anything going awry, you want to make changes, you vastly improve it, there's something already out there that does this, etc. just let me know! Thanks.
+Like I mentioned, this is my first ever Python project, so if there's anything going awry, you want to make changes, you vastly improve it, there's something already out there that does this, etc. just let me know! Thank you!
+
+#### Examples
+
+Here's a few demos of the converter in progress, from Improved Initiative to commandline to Homebrewery.
+
+![Demo in Improved Initiative](../assets/improvedinitiative_ex.PNG?raw=true)
+
+![Demo Commandline](../assets/commandline_ex.PNG?raw=true)
+
+![Demo in Homebrewery](../assets/homebrewery_ex.PNG?raw=true)
+
+![Demo in Homebrewery Wide](../assets/homebrewery_wide_ex.png?raw=true)
+
+![Demo in Markdown Editor](../assets/md_editor_ex.PNG?raw=true)
