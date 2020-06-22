@@ -34,13 +34,15 @@ Huge credit to NaturalCrit, who made Homebrewery; Evan Bailey and the other Impr
 
 Here's a few demos of the converter in progress, from Improved Initiative to commandline to Homebrewery.
 
-![Demo in Improved Initiative](../assets/improvedinitiative_ex.png?raw=true)
+![Demo in Improved Initiative](../assets/improvedinitiative_ex.PNG?raw=true)
 
-![Demo Commandline](../assets/commandline_ex.png?raw=true)
+![Demo Commandline](../assets/commandline_ex.PNG?raw=true)
 
-![Demo in Homebrewery](../assets/homebrewery_ex.png?raw=true)
+![Demo in Homebrewery](../assets/homebrewery_ex.PNG?raw=true)
 
 ![Demo in Homebrewery Wide](../assets/homebrewery_wide_ex.png?raw=true)
+
+![Demo in Markdown Editor](../assets/md_editor_ex.PNG?raw=true)
 
 ## Common Issues
 
