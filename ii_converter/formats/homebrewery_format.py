@@ -130,12 +130,20 @@ def map_content_list(iter):
     return content_mapped.join(map(format_content, iter))
 
 
-def get_markdown(obj):
+def get_markdown(obj, obj_name, wide=False):
     # Main function
     obj_keys = obj.keys()
 
+    result = ''
+
+    if wide:
+        # Prepends tag for wide monster statblocks to default markdown
+        result += blank_endl
+
     # NAME AND TYPE
-    result = h2_field.format(obj['Name'])
+    # name provided b/c also used for file output in helpers.py
+    result += h2_field.format(obj_name)
+
     if has_field(obj_keys, 'Type'):
         result += italics_field.format(obj['Type'])
 
@@ -212,10 +220,3 @@ def get_markdown(obj):
 
     result += endl
     return result
-
-
-def get_markdown_wide(obj):
-    # Prepends tag for wide monster statblocks to default markdown
-    wide_result = blank_endl
-    wide_result += get_markdown(obj)
-    return wide_result

@@ -29,8 +29,8 @@ def run():  # Command line user view
     parser = argparse.ArgumentParser(description='Process parameters.')
     parser.add_argument('input_path', metavar='I', type=str,
                         help='filepath for input JSON')
-    parser.add_argument('--markdown_format', metavar='M', type=str, choices=helpers.dispatch_get.keys(),
-                        help='markdown format for output: ' + ', '.join(helpers.dispatch_get.keys()))
+    parser.add_argument('--markdown_format', metavar='M', type=str, choices=helpers.supported_formats,
+                        help='markdown format for output: ' + ", ".join([str(f) for f in helpers.supported_formats]))
     parser.add_argument('--overwrite', metavar='OV', type=bool,
                         help='whether to overwrite existing output files')
     parser.add_argument('--filter', metavar='F', type=bool,
@@ -53,7 +53,7 @@ def run():  # Command line user view
 
     # Convert files
     print('==========')
-    completion_data = helpers.convert_all(
+    completion_data = helpers.convert(
         config.input_path, config.md_format, config.types_filtered)  # track total vs. success
     print("All done! Of {0} matched entities, {1} successfully converted.".format(
         *completion_data))
